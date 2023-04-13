@@ -196,17 +196,17 @@
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": null,
+    "QcUserName": "",
     "QcPassword": "",
     "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
-    "TfsUserName": null,
+    "TfsUserName": "",
     "TfsPassword": "",
     "TfsSkipAuthDialog": true,
-    "TfsDomain": null,
+    "TfsDomain": "",
     "TeamPulseServerUrl": "",
-    "TpUserName": null,
+    "TpUserName": "",
     "TpPassword": "",
     "TpUseWindowsAuth": false,
     "TpSkipAuthDialog": false,
@@ -217,8 +217,20 @@
     "DefaultDesktopApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "38c907f5-ed90-42c7-a2e5-b5e7793c22a0",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/sureshkale2309/Automation.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/sureshkale2309/Automation.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
